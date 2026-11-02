@@ -1,0 +1,6 @@
+services:
+  web:
+    restart: on-failure:3
+    image: 313162596038.dkr.ecr.eu-west-2.amazonaws.com/practice-3:latest
+    ports: 
+    - "5004:5004"
